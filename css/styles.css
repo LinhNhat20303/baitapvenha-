@@ -1,0 +1,121 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+nav {
+  position: fixed;
+  z-index: 1000;
+  width: 100%;
+  /* padding: 0 10px; */
+  display: flex;
+  background-color: white;
+}
+
+.logo {
+  width: 20%;
+  margin-left: 50px;
+  /* padding: 10 px; */
+  margin-top: 10px;
+}
+
+.link {
+  width: 60%;
+  color: rgb(255, 255, 255);
+  font-size: 15px;
+  font-weight: 700;
+  margin: 50px;
+}
+.social {
+  width: 20%;
+  color: rgb(255, 255, 255);
+  font-size: 15px;
+
+  padding: 35px;
+}
+.social span {
+  margin: 0 20px;
+  font-weight: 700;
+}
+.social button {
+  color: white;
+  background-color: rgb(44, 221, 147);
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  font-weight: 700;
+}
+
+.link span {
+  margin: 0 20px;
+  /* width: 40%; */
+  color: rgb(0, 0, 0);
+}
+.social {
+  margin: 0 20px;
+  color: rgb(0, 0, 0);
+}
+
+.link button {
+  color: white;
+  background-color: rgb(44, 221, 147);
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+}
+
+.body {
+  background-image: url(https://images.pexels.com/photos/167699/pexels-photo-167699.jpeg?cs=srgb&dl=pexels-lumn-167699.jpg&fm=jpg);
+  width: 100vw;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.overplay {
+  background-color: rgba(36, 42, 53, 0.7);
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+}
+
+.body button {
+  color: white;
+  background-color: rgb(55, 133, 79);
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  margin-left: 100px;
+  margin-top: 50px;
+  font-size: 16px;
+  /* font-weight: 700px; */
+}
+.content h1 {
+  color: rgb(44, 221, 147);
+  font-weight: 600;
+  font-size: 40px;
+  margin-left: 50px;
+}
+
+.content p {
+  color: white;
+  width: 500px;
+  margin-left: 50px;
+
+  margin-top: 20px;
+}
+
+.content {
+  width: 920px;
+
+  position: relative;
+  z-index: 1;
+}
